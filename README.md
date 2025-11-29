@@ -1,16 +1,95 @@
-# React + Vite
+HiringBae – Blog Page (Internship Task)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is created as part of the HiringBae Frontend Developer Internship assignment.
 
-Currently, two official plugins are available:
+Task Overview:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The task was to build a blog page that aligns with the design and theme of the official HiringBae website:
 
-## React Compiler
+🔗 https://hiringbae.com/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Technologies Used:
 
-## Expanding the ESLint configuration
+React.js (Vite)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Vanilla CSS
+
+Smooth & subtle animations
+
+Clean component-based architecture
+
+Theme inspired by HiringBae’s dark, gradient UI style
+
+ Tech Stack:
+
+-React (Vite)
+
+-JavaScript (ES6+)
+
+-CSS3
+
+-Git & GitHub
+
+---
+
+Project structure
+
+src/
+
+components/
+navbar.jsx
+hero.jsx
+glowBackground.jsx
+featured-story.jsx
+articlecard.jsx
+hirepage.jsx
+footer.jsx
+
+styles/
+navbar.css
+hero.css
+glowBackground.css
+featured-story.css
+articlecard.css
+hirepage.css
+footer.css
+
+
+AI tools were used only for assistance, not for design.
+
+✔ AI was used for:
+
+Fixing CSS bugs
+
+Debugging responsive layout issues
+
+Helping with small animation ideas
+
+✖ AI was not used for:
+
+Layout design
+
+UI/UX creativity
+
+Component structure
+
+Color palette
+
+Styling decisions
+
+Content writing
+
+ How to Run the Project
+1. Clone the repository:
+git clone https://github.com/Karthikthyagu/hiringbae-blog.git
+
+2. Install dependencies:
+npm install
+
+3. Run the development server:
+npm run dev
+
+
+The project will run at:
+
+http://localhost:5173
